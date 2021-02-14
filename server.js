@@ -4,6 +4,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var swtoolRouter = require("./routes/SwtoolRout");
 var fileuploadRouter = require("./routes/UploadRout");
+require("./routes/BatchRout");
 
 var app = express();
 
